@@ -6,6 +6,7 @@ import JoinUs from '../components/JoinUs';
 import SearchFrom from '../components/SearchFrom';
 import ProductSlider from '../components/ProductSlider';
 import CollectionProduct from '../components/CollectionProduct'
+import SignUpModal from '../components/SignUpModal';
 
 function Home() {
   return (
@@ -17,6 +18,7 @@ function Home() {
         <ExclusiveDeals />
         <ProductSlider />
         <CollectionProduct />
+        <SignUpModal />
     </> 
   )
 }
